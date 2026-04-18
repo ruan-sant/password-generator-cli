@@ -56,3 +56,6 @@ Este projeto utiliza GitHub Actions para:
 
 * Rodar testes automaticamente (CI)
 * Simular deploy da aplicação (CD)
+
+## Atualização
+Atualização para teste de CI/CD
