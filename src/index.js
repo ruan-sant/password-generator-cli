@@ -10,6 +10,12 @@ function gerarSenha(tamanho = 8) {
   return senha;
 }
 
-const tamanho = process.argv[2] || 8;
+const args = process.argv.slice(2);
+const tamanho = args[0] ? parseInt(args[0]) : 8;
+
+if (isNaN(tamanho)) {
+  console.log("Use um número válido");
+  process.exit(1);
+}
 
 console.log("Senha gerada:", gerarSenha(tamanho));
