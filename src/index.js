@@ -10,6 +10,8 @@ function gerarSenha(tamanho = 8) {
   return senha;
 }
 
+module.exports = { gerarSenha };
+
 const args = process.argv.slice(2);
 const tamanho = args[0] ? parseInt(args[0]) : 8;
 
