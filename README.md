@@ -39,6 +39,7 @@ npm start 12
 
 ## 🧪 Testes
 
+Projeto agora possui testes unitários com Jest.
 Para rodar os testes:
 
 ```bash
